@@ -1,0 +1,19 @@
+
+
+.head{
+background-color: red;
+height: 100vh;
+}
+.modal-content {
+	background-color: red;
+}
+#contenido{
+	width: 70%;
+	height: 50vh;
+}
+.contenedor-chat{
+	background-color: #555;
+	position: absolute;
+	display: inline;
+
+}

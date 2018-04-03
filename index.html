@@ -3,20 +3,52 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Chatbot-AnaRoja</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 <body>
 
 
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">ayuda</button>
 
-<!-- boton modal -->
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
-<!-- boton modal -->
-<!-- modal -->
-<div class="modal-body">
-	<div class="container-fluid">
-	
-	</div>
+<div class="modal fade estructure" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" id="contenido">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cruz Roja</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+     <!--    <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div> -->
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">¿Necesitas Ayuda?</label>
+            <div class="form-control" id="message-text">
+            	<!--contenido-->
+            	<h7>Hola soy cruz roja, ¿en que te puedo ayudar?</h7>
+                <div> ...</div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+
+      <div class="input-group">
+			  <input type="text" class="form-control" placeholder="Escriba aqui..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+			  <div class="input-group-append">
+			    <button class="btn btn-outline-secondary" type="button">enviar</button>
+			  </div>
+			</div>
+
+      </div>
+    </div>
+  </div>
 </div>
 
 
