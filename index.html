@@ -12,10 +12,10 @@
 <body>
 
 <section>
-<button type="button" id="help" class="btn btn-warning btn-circle btn-xl"><i class="fa fa-times"></i>
+<button type="button" id="help"  class="pulse help-boton btn fa-comments btn-circle btn-xl"><img src="assets/elisa.png" alt=""></i>
     </button>
-<img src="assets/cruzroja.jpg">
-    
+<img  src="assets/cruzroja.jpg">
+  
   
 <!--contenedor chat-->
   <div id="chat">
@@ -24,30 +24,33 @@
         <button type="button" id="cerrar" class="close" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <label for="message-text" class="col-form-label">¿Necesitas Ayuda?</label>
+        
+        <label id ="nombre-title" for="title-chat" class="col-form-label"></label>
+        <img src="assets/elisa.png"  class="avatar pull-left rounded-circle">
+        <span class="title-nombre" style="color: #fff; font-size:28px">Elisa</span>
       </div>
+
+
         <div class="form-control cont-chatbot" id="message-sophia"> 
                     <!--contenido-->
-          <h7>Hola soy cruz roja, ¿en que te puedo ayudar?</h7>
+          <!-- <h7>Hola soy cruz roja, ¿en que te puedo ayudar?</h7>
             <div id ="message-help">
-            </div>
+            </div> -->
+            <iframe src="https://chatcruzrojabot.mybluemix.net/messages" frameborder="0"></iframe>
           
         </div>
-        <div class="input-group cont-imp">
-            <input id="message" type="text" class="form-control" placeholder="Escriba aqui..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button id="submit" class="btn btn-outline-secondary" type="button">enviar</button>
-            </div>
-          </div>
+
     </div>
   </div>
 <!--contenedor chat-->
 
-    <iframe id="" src=''></iframe>
+  
 
 
 </section>
 <footer>
+
+
 
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
