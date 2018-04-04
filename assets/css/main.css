@@ -1,6 +1,7 @@
 body {
 	background-color: red;
-	color: #ffff
+	color: #ffff;
+	overflow: hidden;
 }
 
 img {
