@@ -1,5 +1,5 @@
 body {
-	background-color: red;
+	background-color: ;
 	color: #ffff;
 	overflow: hidden;
 }
@@ -11,9 +11,13 @@ img {
 /* inspeccionar */
 
 iframe {
+	height: 99vw;
+	width: 100%;
+}
+
+.boti {
 	height: 88vh;
 	width: 100%;
-	
 }
 
 #mini{
